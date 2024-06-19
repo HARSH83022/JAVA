@@ -1,0 +1,23 @@
+public class literals {
+    public static void main(String[] args) {
+
+        byte age =34; // byte
+
+        int age2= 56; //int
+
+short age3 =87; //short
+
+long ageDino = 5666666666666L; // long 
+
+char ch = 'A';            //char
+
+
+float f1 = 56.7f;
+
+double d1 = 4.56;
+
+boolean a =true;
+
+System.out.println(age2);
+    }
+}
