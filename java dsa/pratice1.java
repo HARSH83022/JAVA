@@ -1,0 +1,22 @@
+import java.util.Scanner;
+// int max=100;
+// int sc;
+public class pratice1 {
+    public static void main(String[] args) {
+        System.out.println("Marks of student result");
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the marks1: ");
+        int marks1 = sc.nextInt();
+        System.out.println("Enter the marks2 :");
+        int marks2 = sc.nextInt();
+        System.out.println("Enter the marks3:");
+        int marks3 = sc.nextInt();
+        System.out.println("Enter the marks4: ");
+        int marks4 = sc.nextInt();
+        System.out.println("Enter the marks5: ");
+        int marks5 = sc.nextInt();
+        int total = (marks1+marks2+marks3+marks4+marks5)*100/500;
+        System.out.println(total + "%");
+
+    }
+}
